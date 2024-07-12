@@ -1,0 +1,18 @@
+<%- include('partials/header')%>
+  
+<%- include('partials/nav')%>
+<div class="w-full h-screen flex justify-center items-center">
+    <form action="/register" method="post" class="flex flex-col gap-5 w-[30rem] h-[25rem] ">
+        <h1 class="text-3xl font-bold text-black">Register</h1>
+        <input class="px-20 py-3 border border-black rounder outline-none text-center" type="text" name="fullname" placeholder="Full Name">
+        <input class="px-20 py-3 border border-black rounder outline-none text-center" type="text" name="username" placeholder="Username">
+        <input class="px-20 py-3 border border-black rounder outline-none text-center" type="password" name="password" placeholder="Password">
+        <input class="px-20 py-3 border border-black rounder outline-none text-center" type="email" name="email" placeholder="Email">
+        <button class="px-4 py-2 bg-black text-white text-xl">Register</button>
+    </form>
+</div>
+
+
+
+
+<%- include('partials/footer')%>
